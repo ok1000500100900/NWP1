@@ -1,4 +1,4 @@
-
+//plik test w nowym projekcie
 #include "NWP.h"
 
 int test()
