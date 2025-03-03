@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <stdio.h>
+#include <cstdio>
 #include "NWP.h"
 
 using namespace std;
@@ -12,8 +13,7 @@ int nwp;
 int temp;
 int rest;
 
-int main()
-{
+int main() {
   printf("Podaj dwie liczby: ");
   cin >> x >> y;
   printf("Ich najwiekszy wspolny podzielnik to %d", NWP(x, y));
